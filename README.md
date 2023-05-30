@@ -76,3 +76,38 @@ GLS:
  gtkwave dump.vcd
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/38da23cb-f9ef-4a9b-af47-2fbcd480ccdc)
+
+
+.sdc
+-----
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/301720a8-7a6c-41ea-a0f6-4ed9ad108d8c)
+
+
+
+script_rc.tcl
+-------
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7afb8dcf-0132-4049-8fe2-e8e657d8f11b)
+
+
+
+OpenSTA 
+ ----
+    
+./sta script_rc.tcl
+    
+    
+ Reports:
+ -----
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/05fbee20-40a1-43e4-914b-efa429386f7f)
+   
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e870d5f4-c68a-4ccf-abc4-47f86bdec7ba)
+
+
+
+
+
+
