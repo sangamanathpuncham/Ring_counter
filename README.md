@@ -71,11 +71,15 @@ show
 GLS:
 ---
 
- iverilog -DFUNCTIONAL -DUNIT_DELAY=#0 ../sky130RTLDesignAndSynthesisWorkshop/ring/iiitb_4bitrc/verilog_model/primitives.v ../sky130RTLDesignAndSynthesisWorkshop/ring/iiitb_4bitrc/verilog_model/sky130_fd_sc_hd.v ring_synth_net1.v tb_ringc.v
+   iverilog -DFUNCTIONAL -DUNIT_DELAY=#0 ../../sky130RTLDesignAndSynthesisWorkshop/verilog_model/primitives.v ../../sky130RTLDesignAndSynthesisWorkshop/verilog_model/sky130_fd_sc_hd.v    
+   ring_synth.v tb_ringc.v
  
- ./a.out
  
- gtkwave dump.vcd
+   ./a.out
+   
+   gtkwave dump.vcd
+ 
+
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/38da23cb-f9ef-4a9b-af47-2fbcd480ccdc)
 
