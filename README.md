@@ -51,19 +51,21 @@ Synthesis:
 
 yosys
 
-read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 read_verilog ring.v
  
 synth -top ring_counter
 
-dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+dfflibmap -liberty ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
-abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty  ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+opt_clean -purge
  
 show
 
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0578540a-3697-41ac-8c63-bf0d5a345b5c)
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/7201e4aa-d2e8-4116-9480-a6bba51dc6ea)
 
 
 GLS:
@@ -81,14 +83,16 @@ GLS:
 .sdc
 -----
     
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/301720a8-7a6c-41ea-a0f6-4ed9ad108d8c)
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/e9fbb8bc-e80f-4610-890f-022cd2cb9440)
 
 
 
 script_rc.tcl
 -------
     
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7afb8dcf-0132-4049-8fe2-e8e657d8f11b)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/809d1c8a-589a-4aac-9ef7-3cc320671dff)
+
 
 
 
@@ -100,11 +104,11 @@ OpenSTA
     
  Reports:
  -----
-    
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/05fbee20-40a1-43e4-914b-efa429386f7f)
-   
+ 
+ Reg 2 Reg timing path (max)
+  
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c1b272f1-ee6b-4c71-8dfc-e1459f517323)
 
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e870d5f4-c68a-4ccf-abc4-47f86bdec7ba)
 
 
 
