@@ -114,7 +114,7 @@ OpenSTA
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c1b272f1-ee6b-4c71-8dfc-e1459f517323)
 
 
-STA ON DIFFRENT CORNERS:
+STA ON DIFFERENT CORNERS:
 -------
 
 
@@ -132,8 +132,8 @@ STA ON DIFFRENT CORNERS:
 TABLE:
 ----
 
-PVT                                           MIN                                      MAX                           TNS
-----
+
+			![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/32045a9f-95c0-41f0-baa4-2f6ce13c7b82)
 
 
 
