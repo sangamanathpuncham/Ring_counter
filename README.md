@@ -132,8 +132,7 @@ STA ON DIFFERENT CORNERS:
 TABLE:
 ----
 
-
-			![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/32045a9f-95c0-41f0-baa4-2f6ce13c7b82)
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/32045a9f-95c0-41f0-baa4-2f6ce13c7b82)
 
 
 
