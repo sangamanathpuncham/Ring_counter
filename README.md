@@ -114,6 +114,29 @@ OpenSTA
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c1b272f1-ee6b-4c71-8dfc-e1459f517323)
 
 
+STA ON DIFFRENT CORNERS:
+-------
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/3e883219-7b06-4556-8db8-051ebf808082)
+
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/ee9911c2-6e21-490c-9c16-be222c73f926)
+
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/6f0f9872-6971-4dfd-af1c-e469f81d37d6)
+
+
+TABLE:
+----
+
+PVT                                           MIN                                      MAX                           TNS
+----
+
+
+
 
 
 
