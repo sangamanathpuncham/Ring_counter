@@ -136,6 +136,7 @@ TABLE:
 
 
 
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/8f13c33e-cd84-4568-9db8-5027e18590ac)
 
 
 
