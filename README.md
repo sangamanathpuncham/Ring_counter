@@ -142,6 +142,7 @@ TABLE:
 OPENLANE FLOW:
 ----
 Synthesis:
+---
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/3b562116-762a-41d2-b466-416f08afbf81)
 
