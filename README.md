@@ -149,6 +149,21 @@ Synthesis:
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/be21dbc7-c14f-466f-a48e-1e32f5891630)
 
+Floorplan:
+----
 
+Ring counter is the smaller block so need add following switches to the .tcl file(config.json)
+
+     "FP_PDN_AUTO_ADJUST": 0,
+     "FP_PDN_HOFFSET": 7,
+     "FP_PDN_VOFFSET": 7,
+     set ::env(DIE_AREA) [list 0 0 80 80]
+     set ::env(CORE_AREA) [list 0 0 70 70]
+     run_floorplan
+     
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/1c2e538e-7b0d-4913-b550-a719e98f7b24)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/481dd759-fbdc-4e3e-9492-1acb91b7d9bc)
 
 
