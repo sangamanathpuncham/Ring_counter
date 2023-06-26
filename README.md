@@ -152,7 +152,8 @@ Synthesis:
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/b01c1129-ab62-489f-8174-94579582aa7f)
 
-
+flop ratio=total dff / total number of cells
+                 4/8= 50%
 
 Floorplan:
 ----
