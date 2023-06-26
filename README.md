@@ -172,4 +172,18 @@ Ring counter is the smaller block so need add following switches to the .tcl fil
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/481dd759-fbdc-4e3e-9492-1acb91b7d9bc)
 
+Placement:
+---
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/99428316-5d69-4e91-8414-29ba244db0c5)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/074824e0-9df7-4201-abaa-e351ea62a21a)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/d0c2655b-a8e7-4caf-8e76-4449f684ff0e)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/87e0b511-d3bc-41e8-89de-8fa95b2275f4)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c7c28c2a-9d6d-49db-b79e-6269b1e0a784)
+
+
+
 
