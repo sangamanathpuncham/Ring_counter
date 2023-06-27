@@ -179,15 +179,12 @@ Placement:
      "PL_TARGET_DESITY": 0.55
       run_placement
       
-![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/99428316-5d69-4e91-8414-29ba244db0c5)
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/a353a3b6-8e1f-491d-8000-1ca2c34671ec)
 
-![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/074824e0-9df7-4201-abaa-e351ea62a21a)
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/f6986d91-63a9-4186-9886-85df0dff9786)
 
-![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/d0c2655b-a8e7-4caf-8e76-4449f684ff0e)
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/a4e34d45-7001-4336-873e-d54d22a98910)
 
-![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/87e0b511-d3bc-41e8-89de-8fa95b2275f4)
-
-![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c7c28c2a-9d6d-49db-b79e-6269b1e0a784)
 
 
 CTS:
@@ -195,4 +192,54 @@ CTS:
 
   run_cts
   
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/2bbe7ee0-8195-40ba-a1bd-87daa20b0760)
 
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/4338876e-33fa-4094-86fd-354c744ed5fd)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/88c41eea-5c30-4b64-92fc-070ae1ad2c71)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c4b11b22-b102-46c5-929f-2108f2e00ed6)
+
+ROUTING
+----
+    run_routing
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/6eba21bf-166c-44fb-aade-67b4c18a16d7)
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/dfb55f80-c536-40c4-94e4-a25c52bf781c)
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/73dbd7b6-173d-48c2-b9cc-fc2ccb22c5c6)
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/94b38b08-b143-4ca0-bba8-84645c382bd4)
+
+tns=0
+wns=0
+
+SIGNOFF:
+----
+PARASITICS
+---
+    run_parasitics_sta
+    
+min_spef and sdf
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/0535aa85-0bbc-48f1-bfc7-852d9a1c452f)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/d1bac792-5d85-4896-a435-102ca2b5ef64)
+
+
+max_spef and sdf
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/23e5ad90-5779-425d-8009-4bea13e3dd17)
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/8b49d391-6ece-4991-bc3b-d13f8f1ee852)
+
+
+IRDROP:
+---
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/3c283f7c-74f6-4588-aa1d-902861a0eb96)
