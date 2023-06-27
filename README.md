@@ -202,6 +202,7 @@ CTS:
 
 ROUTING
 ----
+    gen_pdn
     run_routing
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/6eba21bf-166c-44fb-aade-67b4c18a16d7)
@@ -243,3 +244,43 @@ IRDROP:
 ---
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/3c283f7c-74f6-4588-aa1d-902861a0eb96)
+
+
+run_magic:
+-----
+
+    Streaming out GDSII with Magic (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/36-gdsii.log)...
+
+    Generating lef with Magic (/openlane/designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/36-lef.log)...
+
+run_magic_spice_export:
+------
+
+Running Magic Spice Export from LEF (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/37-spice.log)...
+
+
+run_lvs:
+-----
+
+Writing Verilog (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/38-write_powered_verilog.log)...
+
+Running LVS (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/40-lvs.lef.log)...
+
+run_magic_drc:
+----
+
+[INFO]: Running Magic DRC (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/41-drc.log)...
+[INFO]: Converting Magic DRC database to various tool-readable formats...
+[INFO]: No DRC violations after GDS streaming out.
+
+run_antenna_check:
+-----
+
+Running OpenROAD Antenna Rule Checker (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/42-antenna.log)...
+
+run_erc:
+----
+[INFO]: Running Circuit Validity Checker ERC (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/43-erc_screen.log)...
+
+
+
