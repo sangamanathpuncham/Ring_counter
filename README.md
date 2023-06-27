@@ -163,8 +163,9 @@ Ring counter is the smaller block so need add following switches to the .tcl fil
      "FP_PDN_AUTO_ADJUST": 0,
      "FP_PDN_HOFFSET": 7,
      "FP_PDN_VOFFSET": 7,
-     set ::env(DIE_AREA) [list 0 0 80 80]
-     set ::env(CORE_AREA) [list 0 0 70 70]
+     "DIE_AREA": "0 0 100 100",
+     "CORE_AREA": "10 10 90 90",
+     "PL_TARFGET_DESITY":0.55,
      run_floorplan
      
 
@@ -175,7 +176,7 @@ Ring counter is the smaller block so need add following switches to the .tcl fil
 Placement:
 ---
 
-     "PL_TARGET_DESITY": 0.73
+     "PL_TARGET_DESITY": 0.55
       run_placement
       
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/99428316-5d69-4e91-8414-29ba244db0c5)
@@ -193,4 +194,5 @@ CTS:
 ----
 
   run_cts
+  
 
