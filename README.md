@@ -205,15 +205,19 @@ ROUTING
     gen_pdn
     run_routing
 
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/b058ae9b-4721-4667-bf89-29df6d3b218b)
+
+
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/6eba21bf-166c-44fb-aade-67b4c18a16d7)
+
+
+      run_parasitics_sta
 
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/dfb55f80-c536-40c4-94e4-a25c52bf781c)
 
     
-     run_parasitics_sta
-
-
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/73dbd7b6-173d-48c2-b9cc-fc2ccb22c5c6)
 
 
