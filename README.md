@@ -189,5 +189,8 @@ Placement:
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c7c28c2a-9d6d-49db-b79e-6269b1e0a784)
 
 
+CTS:
+----
 
+  run_cts
 
