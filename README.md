@@ -174,6 +174,10 @@ Ring counter is the smaller block so need add following switches to the .tcl fil
 
 Placement:
 ---
+
+     "PL_TARGET_DESITY": 0.73
+      run_placement
+      
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/99428316-5d69-4e91-8414-29ba244db0c5)
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/074824e0-9df7-4201-abaa-e351ea62a21a)
