@@ -282,5 +282,16 @@ run_erc:
 ----
 [INFO]: Running Circuit Validity Checker ERC (log: designs/ring_counter/runs/RUN_2023.06.27_06.26.48/logs/signoff/43-erc_screen.log)...
 
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/049a159b-a358-4311-a767-ec9b5b69df7c)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/88969089-d7dc-41d8-a0c3-5c2b6a6bbb5b)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/fb63862d-fb92-4b20-a9ae-f87b21c1b8a0)
+
+
+
+
+
+
 
 
