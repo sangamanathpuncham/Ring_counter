@@ -210,6 +210,9 @@ ROUTING
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/dfb55f80-c536-40c4-94e4-a25c52bf781c)
 
+    
+     run_parasitics_sta
+
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/73dbd7b6-173d-48c2-b9cc-fc2ccb22c5c6)
 
@@ -223,7 +226,6 @@ SIGNOFF:
 ----
 PARASITICS
 ---
-    run_parasitics_sta
     
 min_spef and sdf
 
