@@ -294,6 +294,10 @@ run_erc:
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/fb63862d-fb92-4b20-a9ae-f87b21c1b8a0)
 
+NONINTERACTIVE MODE:
+---
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/1ffff16f-f69c-48d2-9e48-26a2f4727ce0)
 
 
 
