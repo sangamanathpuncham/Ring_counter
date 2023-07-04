@@ -300,7 +300,15 @@ NONINTERACTIVE MODE:
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/0f5dd934-19bb-420f-825b-8c4ef1affecf)
 
 
+CARAVEL INTEGRATION:
+-----
+     https://github.com/efabless/caravel/,
+     
+     https://github.com/efabless/caravel_mgmt_soc_litex,
 
+     https://github.com/efabless/caravel_user_project/blob/main/docs/source/index.rst#section-quickstart,
+
+     https://github.com/efabless/caravel/blob/main/openlane/README.rst
 
 
 
