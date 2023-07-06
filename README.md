@@ -324,5 +324,27 @@ To install dependencies and build the management core, I used the following comm
          make
 The screenshot below shows the successful build of the management core:
 
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/5a940d79-263d-4ed1-8d86-37a4743d5801)
+
+
+
+Caravel integration: hardening with OpenLane
+------
+I first created a new repo using the below link:
+
+     https://github.com/efabless/caravel_user_project/generate
+
+Then, I set up the environment using the commands below
+
+      git clone https://github.com/sangamanathpucham/ring_counter_caravel.git
+      cd ring_counter_caravel
+      mkdir dependencies
+      export OPENLANE_ROOT=$(pwd)/dependencies/openlane_src # you need to export this whenever you start a new shell
+      export PDK_ROOT=$(pwd)/dependencies/pdks # you need to export this whenever you start a new shell
+      export PDK=sky130A
+      make setup
+      make pdk
+      make openlane
+
 
 
