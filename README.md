@@ -352,5 +352,6 @@ To prepare for hardening my design, I first used the following commands:
          cp -r user_proj_example/ring_counter
          cd ..
          cd verilog/rtl/
-         cp /home/sangamanath/OpenLane/designs/ring_counter/src/ring_counter.v 
+         cp /home/sangamanath/Desktop/vlsi/OpenLane/designs/ring_counter/src/ringc.v ./
+
 
