@@ -310,7 +310,19 @@ CARAVEL INTEGRATION:
 
      https://github.com/efabless/caravel/blob/main/openlane/README.rst
 
+       git clone https://github.com/efabless/caravel_mgmt_soc_litex.git
 
+
+First, I had to modify caravel.py inside the /litex directory of the cloned directory to remove the line that imports SpiFlash.
+
+To install dependencies and build the management core, I used the following commands:
+
+         cd caravel_mgmt_soc_litex
+         cd litex
+         make setup
+         pip3 install git+https://github.com/litex-hub/pythondata-software-compiler_rt.git
+         make
+The screenshot below shows the successful build of the management core:
 
 
 
