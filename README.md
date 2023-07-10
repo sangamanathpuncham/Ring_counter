@@ -343,8 +343,8 @@ Then, I set up the environment using the commands below
       export PDK_ROOT=$(pwd)/dependencies/pdks # you need to export this whenever you start a new shell
       export PDK=sky130A
       make setup
-      make pdk
-      make openlane
+     // make pdk
+     // make openlane
 
 To prepare for hardening my design, I first used the following commands:
 ------
@@ -354,4 +354,69 @@ To prepare for hardening my design, I first used the following commands:
          cd verilog/rtl/
          cp /home/sangamanath/Desktop/vlsi/OpenLane/designs/ring_counter/src/ringc.v ./
 
+I then modified my verilog file has shown below (to accomodate for io_oeb which is driven low to enable the output):
+----
 
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/e3e70e24-90f1-4c28-b0cd-43211668eba0)
+
+
+I also modified the verilog/rtl/user_project_wrapper.v as shown in the screenshot below:
+----
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/b7867d40-b9b4-43de-9493-6a4b156ac9f0)
+
+After that, I modified the includes.rtl.caravel_user_project in the verilog/includes/ directory as shown below:
+-----
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/81123617-6563-49d6-9eb7-86cccc36b649)
+
+I adapted the tests found in verilog/dv/io_ports/ using the commands below:
+-----
+
+        cp -r io_ports/ ring_counter
+        cd ring_counter
+        rename s/io_ports/ring_counter/ *
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/b2ff526d-84a5-465e-90c6-82b8d5e6d1b9)
+
+I also modified the _tb.v file in the verilog/dv/ring_counter/ directory by chaging all names as needed and applying following modifications:
+----
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/2d0ef23b-44e0-4703-99f3-b6acdba941cf)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/022b3993-52d0-4bff-95a9-9547a63aeb25)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/61013830-4106-4075-a850-8f49b8dc2647)
+
+
+To test the design, I used the following command in the ring_counter_caravel/ directory:
+-----
+
+                 make verify-ring_counter-rtl 
+
+In the updown_counter_caravel/openlane/ring_counter directory, I modified the configuration file as shown in the screenshot below:
+-----
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/6cb0b4e8-1fbf-4f52-9b27-13df91edef4c)
+
+
+To harden my design, I used the command below in updown_counter_openlane/openlane directory:
+------
+
+                make ring_counter
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/7606dd9e-109d-43ea-a06a-ef00fab1c139)
+
+
+*gds*
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/e54002d0-7b74-413a-988a-d65f4e2ef215)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/d67abe3a-435a-4cba-9ef4-44592ece5d56)
+
+*lef*
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/174dfabe-b6e5-4ae5-925b-b4ca98907da9)
+
+
+                 
