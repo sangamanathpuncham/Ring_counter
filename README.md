@@ -394,6 +394,18 @@ To test the design, I used the following command in the ring_counter_caravel/ di
 
                  make verify-ring_counter-rtl 
 
+                 edited1:
+
+ ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/0e203275-688c-4129-8d57-cec8ba2f82af)
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/085f4e51-4b5b-446f-a180-16556d83e2bf)
+
+                edited2:
+
+ ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/f56f4a20-39e1-46ec-9110-cd15bd3b792c)
+
+
+
 In the updown_counter_caravel/openlane/ring_counter directory, I modified the configuration file as shown in the screenshot below:
 -----
 
