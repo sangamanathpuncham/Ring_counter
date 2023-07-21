@@ -430,5 +430,19 @@ To harden my design, I used the command below in updown_counter_openlane/openlan
 
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/174dfabe-b6e5-4ae5-925b-b4ca98907da9)
 
+Hardening of User Wrapper:
+-----
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/d067bb34-8969-431c-84ff-0c78db81ce0a)
+
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/c734a0b5-ac01-428c-a931-9b845a345205)
+
+
+          make user_project_wrapper
+
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/5faea3df-5e9a-45ce-9dde-886100d4f636)
+
+
 
                  
