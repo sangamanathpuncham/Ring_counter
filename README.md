@@ -444,5 +444,13 @@ Hardening of User Wrapper:
 ![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/5faea3df-5e9a-45ce-9dde-886100d4f636)
 
 
+              make precheck
+              make run-precheck
 
+![image](https://github.com/sangamanathpuncham/Ring_counter/assets/132802184/0480c56b-26ae-4105-882f-473c3fe333be)
+
+
+
+
+              
                  
